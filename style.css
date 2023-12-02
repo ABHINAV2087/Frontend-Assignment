@@ -25,7 +25,11 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: var(--primary-color);
+   
     
+}
+body{
+  overflow-x: hidden;
 }
 #navbar{
     height: 14vh;
