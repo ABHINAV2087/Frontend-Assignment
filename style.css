@@ -178,9 +178,15 @@ html,body{
     #resp-name{
       display: flex;
       flex-direction: column;
-      bottom: 5%;
+      top: 7%;
       position: absolute;
-      right: 5%;
+      left: 5%;
+
+    }
+    #resp-name h2{
+     padding: 5px 10px;
+     border-bottom: 1px solid;
+     margin-top: -10px;
 
     }
     .nav-links {
@@ -198,7 +204,7 @@ html,body{
         align-items: start;
         padding: 50px;
         gap: 50px;
-        margin-top: -50px;
+        margin-top: 0px;
         z-index: 999999;
         transform: translateX(100%);
         transition: all 0.7s linear;
