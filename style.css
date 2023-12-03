@@ -24,12 +24,16 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: var(--primary-color);
-   
+  
+    
     
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body{
-  overflow-x: hidden;
+ overflow-x: hidden;
+ background-color: var(--primary-color);
 }
 #navbar{
     height: 14vh;
@@ -280,6 +284,10 @@ body{
     top: 40px;
     transition: 0.5s;
   }
+  #navbar{
+    padding: 50px 0px;
+    width: 100vw;
+}
 }
 @media (max-width:505px) {
     #nav-buttons{
@@ -294,6 +302,7 @@ body{
     }
     #navbar{
         padding: 50px 0px;
+        width: 100vw;
     }
     #hamburger-open{
         display: block;
@@ -469,6 +478,7 @@ h4{
     font-size: 2.5vw;
      
  }
+
 }
 
  #page2{
@@ -1919,7 +1929,7 @@ border: 1px solid var(--secondary-color);
 
 }
 #footer{
-    width: 100%;
+    width: 100vw;
     padding: 70px 20px;
     background-color: var(--tertiary-color);
     display: flex;
@@ -1954,7 +1964,7 @@ border: 1px solid var(--secondary-color);
 }
 @media (max-width:750px) {
   #footer{
-    width: 100%;
+    width: 100vw;
     padding: 20px 50px;
     padding-bottom: 50px;
     display: flex;
