@@ -418,7 +418,7 @@ h4{
 
 @media (max-width:690px) {
   #page1{
-   width: 100vh;
+   width: 100vw;
 }
   #page1>h1{
     font-size: 60px;
